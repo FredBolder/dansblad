@@ -12,6 +12,10 @@ a {
   color: #dddddd;
 }
 
+h3 {
+  margin-top: 1rem;
+}
+
 .page {
   max-width: 1000px;
   margin: auto;
@@ -93,32 +97,6 @@ nav ul {
   margin-left: 1rem;
 }
 
-table {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border-collapse: collapse;
-}
-
-tr:nth-child(odd) {
-  background-color: #004400;
-}
-
-tr:nth-child(even) {
-  background-color: #006600;
-}
-
-td,
-th {
-  padding: 0.25rem;
-  text-align: left;
-  border: 1px solid #002200;
-}
-
-th:nth-child(4),
-td:nth-child(4) {
-  visibility: hidden;
-}
-
 @media (min-width: 700px) {
   header {
     display: flex;
@@ -136,10 +114,5 @@ td:nth-child(4) {
 
   .dansbladNumber {
     min-width: 10rem;
-  }
-
-  th:nth-child(4),
-  td:nth-child(4) {
-    visibility: visible;
   }
 }
